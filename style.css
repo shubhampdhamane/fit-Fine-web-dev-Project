@@ -1,0 +1,145 @@
+.backg{
+    background-image: linear-gradient(to bottom right, rgb(236, 228, 228), rgb(27, 27, 17));    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;  
+}  
+
+
+
+  body{
+    font-size: 100%;
+  }
+  
+
+
+#nav1{
+    color: #f5eded;
+    opacity: 0.9;
+
+}
+
+a:hover {
+    background-color: rgb(218, 121, 121);
+  }
+
+#links{
+    margin-left: 20px;
+}
+
+
+.offcanvas-header{
+    background-color: rgb(199, 209, 228);
+    height: 9vh;
+}
+
+.pageData{
+    text-align: center;
+}
+
+.title{
+  font-size: 6.2em;
+  font-weight: 500;
+  color: crimson;
+  text-shadow: 2px 2px rgb(240, 226, 226);
+}
+
+.subTitle{
+  font-size: 2rem;
+  color: rgb(230, 206, 198);
+}
+
+/* class for height of img of corosoual */
+.coro{
+  height: 50vh;
+}
+
+/* div>h5{
+  color: chocolate;
+  font-size: 20px;
+  background-color: bisque;
+} */
+
+/* div>p{
+  color: rgb(245, 241, 238);
+  font-size: 10px;
+  background-color: rgb(8, 8, 8);
+  display: inline;
+} */
+
+.card
+{ 
+  /* margin: auto; */
+  margin-bottom: 20px;
+}
+
+.card-img-top{
+  height: 40vh;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(5, 4, 4);
+  color: white;
+  /* text-align: center; */
+  margin: 0px;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.card-body{
+height: 20vh;
+}
+
+
+.zoom{
+  transition: transform .2s; /* Animation */
+  transition-duration: 1000ms;
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+@media only screen and (max-width: 600px) {
+ .title{
+  font-size: 4rem;
+ }
+
+ .coro{
+  height: 20vh;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: 30vw;
+  text-align: center;
+  padding-top: 3vw;
+  position: fixed;
+  left: 0;
+  bottom: 0px
+  
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 850px) {
+  div>img{
+    height: 25vh;
+  }
+
+  .footer{
+    font-size: 2vw;
+    text-align: center;
+    padding-top: 1vw;
+  }
+}
